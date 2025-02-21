@@ -546,7 +546,7 @@ main {
 }
 
 .main-nav-bar .logo svg {
-  width: 7em;
+  /* width: 7em; */
 }
 
 .main-nav-bar .logo svg path {
