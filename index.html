@@ -902,6 +902,7 @@
     <script defer="" src="./src/index.js"></script>
 
     <iframe class="mews-distributor" name="mews-distributor1739902139380" style="opacity: 0; border: none; width: 100%; height: 100%; position: fixed; transform: translate3d(0px, 0px, 0px); background: white; inset: 0px; z-index: -1; transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1), opacity 450ms cubic-bezier(0.23, 1, 0.32, 1)"></iframe>
+
     <main class="main" id="main" data-barba="container" data-barba-namespace="home">
       <div class="main-wrap" id="main-wrap" data-scroll-container="">
         <!-- HEADER -->
@@ -1018,6 +1019,7 @@
             </div>
           </div>
         </section>
+
         <!-- HAIRSTYLIST ABOUT -->
         <section class="section section-image-split" data-theme-section="light" data-bg-section="white">
           <div class="container">
@@ -1123,7 +1125,7 @@
             </div>
           </div>
         </section>
-        <!-- PORTFOLIO SECTION-->
+        <!-- PORTFOLIO TITLE DIVIDER-->
         <section class="section" data-theme-section="light" data-bg-section="light" style="">
           <div class="border-top-ornament">
             <div class="ornament">
@@ -1169,6 +1171,7 @@
             </div>
           </div>
         </section>
+        <!-- PORTFOLIO PHOTOS -->
         <section class="section section-three-images offset" data-theme-section="light" data-bg-section="light">
           <div class="container full">
             <div class="row grid">
@@ -1199,6 +1202,7 @@
             </div>
           </div>
         </section>
+        <!-- PORTFOLIO BUTTON -->
         <section class="section section-text-center" data-theme-section="light" data-bg-section="light">
           <div class="container">
             <div class="row centered">
@@ -1318,7 +1322,7 @@
                   <h2>Hair Services</h2>
                 </div>
                 <div class="col-row col-row-text styled-content large">
-                  <p>Precision cuts and personalized styling.<br />Tailored just for you.</p>
+                  <p>I offer precision cuts and personalized styling.<br /><strong>View all details when you book online.</strong></p>
                 </div>
               </div>
             </div>
@@ -1326,21 +1330,24 @@
         </section>
         <!-- HAIR SERVICES SLIDER -->
         <section class="section section-stay-slider" data-theme-section="dark" data-bg-section="light">
+          <!-- Swiper slider group container with type and ID attributes -->
           <div class="swiper-slider-group" data-swiper-slider-type="stay" id="swiper-slider-type-stay-id-0">
+            <!-- Back row with parallax effect -->
             <div class="row row-back" data-parallax-strength="1" data-parallax-height="0.05">
+              <!-- Pagination bullets -->
               <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
                 <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" aria-current="true">
                   <div class="swiper-progress"></div>
                 </span>
-                <span class="swiper-pagination-bullet" tabindex="0"> <div class="swiper-progress"></div> </span
-                ><span class="swiper-pagination-bullet" tabindex="0">
-                  <div class="swiper-progress"></div>
-                </span>
+                <span class="swiper-pagination-bullet" tabindex="0"> <div class="swiper-progress"></div> </span>
                 <span class="swiper-pagination-bullet" tabindex="0">
                   <div class="swiper-progress"></div>
                 </span>
               </div>
+
+              <!-- Navigation arrows -->
               <div class="swiper-controls">
+                <!-- Previous arrow -->
                 <div class="swiper-arrow-overlay" data-swiper-control="prev" data-cursor-bubble-text="Prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-9214b573107a79eb9">
                   <div class="swiper-arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -1349,6 +1356,7 @@
                     </svg>
                   </div>
                 </div>
+                <!-- Next arrow -->
                 <div class="swiper-arrow-overlay" data-swiper-control="next" data-cursor-bubble-text="Next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-9214b573107a79eb9">
                   <div class="swiper-arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -1358,175 +1366,181 @@
                   </div>
                 </div>
               </div>
+
+              <!-- Main background image carousel with fade effect -->
               <div class="swiper-carousel swiper-carousel-fade swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden" data-parallax-target="">
                 <ul class="swiper-wrapper" id="swiper-wrapper-a47d2cbbeb197df9" aria-live="polite" style="transition-duration: 0ms">
-                  <li class="swiper-slide overlay swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 814px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px)">
+                  <!-- Duplicate slide (for loop effect) -->
+                  <!-- <li class="swiper-slide overlay swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" role="group" aria-label="3 / 3" style="width: 814px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px)">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <img class="overlay" src="./media/fade.jpg" alt="Haircuts" />
+                      <img class="overlay" src="" alt="Pool Villa Detail" />
+                    </div>
+                  </li> -->
+
+                  <!-- Slide 1: Hair Styling-->
+                  <li class="swiper-slide overlay swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3" style="width: 814px; transition-duration: 0ms; opacity: 1; transform: translate3d(-814px, 0px, 0px)">
+                    <div class="swiper-slide-inner overlay" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
+                      <img class="overlay" src="./media/photos/hairStyling.jpg" alt="Hair Styling Detail" />
                     </div>
                   </li>
-                  <li class="swiper-slide overlay swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 814px; transition-duration: 0ms; opacity: 1; transform: translate3d(-814px, 0px, 0px)">
+
+                  <!-- Slide 2: Hair Cuts -->
+                  <li class="swiper-slide overlay swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 3" style="width: 814px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1628px, 0px, 0px)">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <img class="overlay" src="https://thedamai.codebydennis.com/media/pages/stay/garden-villa/07f471bfd5-1703172468/header-garden-villa-1920x1440-crop-q72.jpg" alt="Garden Villa Detail" />
+                      <img class="overlay" src="./media/photos/haircut.jpg" alt="Haircut Detail" />
                     </div>
                   </li>
-                  <li class="swiper-slide overlay swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4" style="width: 814px; transition-duration: 0ms; opacity: 0; transform: translate3d(-1628px, 0px, 0px)">
+
+                  <!-- Slide 3: Shave & Trim -->
+                  <li class="swiper-slide overlay" data-swiper-slide-index="2" role="group" aria-label="3 / 3" style="width: 814px; transition-duration: 0ms; opacity: 0; transform: translate3d(-2442px, 0px, 0px)">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <img class="overlay" src="https://thedamai.codebydennis.com/media/pages/stay/pool-studio/e9549175b2-1703172470/header-pool-studio-1920x1440-crop-q72.jpg" alt="Pool Studio Detail" />
+                      <img class="overlay" src="./media/photos/beardTrim.jpg" alt="Shave & Trim Detail" />
                     </div>
                   </li>
-                  <li class="swiper-slide overlay" data-swiper-slide-index="2" role="group" aria-label="3 / 4" style="width: 814px; transition-duration: 0ms; opacity: 0; transform: translate3d(-2442px, 0px, 0px)">
+
+                  <!-- Duplicate slide (for loop effect) -->
+                  <!-- <li class="swiper-slide overlay swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3" style="width: 814px; transition-duration: 0ms; opacity: 0; transform: translate3d(-3256px, 0px, 0px)">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <img class="overlay" src="https://thedamai.codebydennis.com/media/pages/stay/pool-villa/f431fad64e-1703172472/header-pool-villa-1920x1440-crop-q72.jpg" alt="Pool Villa Detail" />
+                      <img class="overlay" src="" alt="Garden Villa Detail" />
                     </div>
-                  </li>
-                  <li class="swiper-slide overlay swiper-slide-duplicate-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 814px; transition-duration: 0ms; opacity: 0; transform: translate3d(-3256px, 0px, 0px)">
-                    <div class="swiper-slide-inner overlay" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <img class="overlay" src="./media/fade.jpg" alt="Haircuts" />
-                    </div>
-                  </li>
-                  <li class="swiper-slide overlay swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 814px; transition-duration: 0ms; opacity: 0; transform: translate3d(-4070px, 0px, 0px)">
-                    <div class="swiper-slide-inner overlay" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <img class="overlay" src="https://thedamai.codebydennis.com/media/pages/stay/garden-villa/07f471bfd5-1703172468/header-garden-villa-1920x1440-crop-q72.jpg" alt="Garden Villa Detail" />
-                    </div>
-                  </li>
+                  </li> -->
                 </ul>
+
+                <!-- Darkening overlay for text readability -->
                 <div class="overlay overlay-dark"></div>
                 <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
               </div>
+
+              <!-- Text carousel that syncs with the image carousel -->
               <div class="swiper-carousel swiper-carousel-text swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress">
-                <ul class="swiper-wrapper" id="swiper-wrapper-9214b573107a79eb9" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-3256px, 0px, 0px)">
-                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4">
+                <ul class="swiper-wrapper" id="swiper-wrapper-9214b573107a79eb9" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-2442px, 0px, 0px)">
+                  <!-- Duplicate text slides (for loop effect) -->
+                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3">
                     <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Sleeps 2 adults — Includes a outdoor shower</p>
-                      <h2>Garden Villa</h2>
+                      <p>Perfect styling for any occasion, from casual to formal.</p>
+                      <h2>Hair Styling</h2>
+                    </div>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                  </li>
+                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 3">
+                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
+                      <p>Precision cuts tailored to your style and personality.</p>
+                      <h2>Haircuts</h2>
+                    </div>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                  </li>
+                  <li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 3">
+                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
+                      <p>Sharp, clean shaves and precise trims for a polished look.</p>
+                      <h2>Shave & Trim</h2>
+                    </div>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                  </li>
+
+                  <!-- Actual text slides -->
+                  <!-- Text Slide 1: Hair Styling for Garden Villa -->
+                  <li class="swiper-slide swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3">
+                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
+                      <p>Perfect styling for any occasion, from casual to formal.</p>
+                      <h2>Hair Styling</h2>
+                    </div>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                  </li>
+
+                  <!-- Text Slide 2: Hair Styling for Pool Studio -->
+                  <li class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 3">
+                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
+                      <p>Precision cuts tailored to your style and personality.</p>
+                      <h2>Haircuts</h2>
+                    </div>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                  </li>
+
+                  <!-- Text Slide 3: Haircuts for Pool Villa -->
+                  <li class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 3">
+                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
+                      <p>Sharp, clean shaves and precise trims for a polished look.</p>
+                      <h2>Shave & Trim</h2>
+                    </div>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                  </li>
+
+                  <!-- Duplicate text slides (for loop effect) -->
+                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3">
+                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
+                      <p>Perfect styling for any occasion, from casual to formal.</p>
+                      <h2>Hair Styling</h2>
                     </div>
                     <a href="https://thedamai.codebydennis.com/stay/garden-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
                   </li>
-                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4">
+                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 3">
                     <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Sleeps 2 adults — Includes a pool</p>
-                      <h2>Pool Studio</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/pool-studio" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Comfortably sleeps 2 adults — Includes a pool</p>
-                      <h2>Pool Villa</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Starting at $99</p>
+                      <p>Precision cuts tailored to your style and personality.</p>
                       <h2>Haircuts</h2>
                     </div>
-                    <a href="https://thedamai.codebydennis.com/stay/master-pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
                   </li>
-                  <li class="swiper-slide swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4">
+                  <li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 3">
                     <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Sleeps 2 adults — Includes a outdoor shower</p>
-                      <h2>Garden Villa</h2>
+                      <p>Sharp, clean shaves and precise trims for a polished look.</p>
+                      <h2>Shave & Trim</h2>
                     </div>
-                    <a href="https://thedamai.codebydennis.com/stay/garden-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Sleeps 2 adults — Includes a pool</p>
-                      <h2>Pool Studio</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/pool-studio" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Comfortably sleeps 2 adults — Includes a pool</p>
-                      <h2>Pool Villa</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Starting at $99</p>
-                      <h2>Haircuts</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/master-pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Sleeps 2 adults — Includes a outdoor shower</p>
-                      <h2>Garden Villa</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/garden-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Sleeps 2 adults — Includes a pool</p>
-                      <h2>Pool Studio</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/pool-studio" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Comfortably sleeps 2 adults — Includes a pool</p>
-                      <h2>Pool Villa</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3" role="group" aria-label="4 / 4">
-                    <div class="swiper-slide-inner" data-swiper-parallax="0%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <p>Starting at $99</p>
-                      <h2>Haircuts</h2>
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/master-pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
                   </li>
                 </ul>
                 <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
               </div>
+
+              <!-- Slide counter (1/3, etc.) -->
               <div class="swiper-count">
                 <span class="swiper-active-slide">1</span>
                 <div class="deco-line-x"></div>
-                <span>4</span>
+                <span>3</span>
               </div>
             </div>
+
+            <!-- Bottom row with thumbnail carousel -->
             <div class="row row-slider-card">
               <div class="swiper-carousel swiper-carousel-main swiper-initialized swiper-horizontal swiper-pointer-events swiper-watch-progress swiper-backface-hidden">
                 <ul class="swiper-wrapper" id="swiper-wrapper-45a23bdd644bf6e4" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-180px, 0px, 0px)">
-                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 180px">
+                  <!-- Duplicate thumbnail (for loop effect) -->
+                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="2" role="group" aria-label="3 / 3" style="width: 180px">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="12.5%" style="transition-duration: 0ms; transform: translate3d(12%, 0px, 0px)">
-                      <img class="overlay" src="./media/fade_overview.jpg" alt="Haircuts Overview" />
+                      <!-- <img class="overlay" src="" alt="" /> -->
                     </div>
-                    <a href="https://thedamai.codebydennis.com/stay/master-pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
                   </li>
-                  <li class="swiper-slide swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 180px">
+
+                  <!-- Thumbnail 1: /// -->
+                  <li class="swiper-slide swiper-slide-visible swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3" style="width: 180px">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="12.5%" style="transition-duration: 0ms; transform: translate3d(0%, 0px, 0px)">
-                      <img class="overlay" src="https://thedamai.codebydennis.com/media/pages/stay/garden-villa/b2fe44fbcf-1703172470/thumb-garden-villa-540x720-crop-q72.jpg" alt="Garden Villa Overview" />
+                      <!-- <img class="overlay" src="" alt="" /> -->
                     </div>
-                    <a href="https://thedamai.codebydennis.com/stay/garden-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
                   </li>
-                  <li class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 4" style="width: 180px">
+
+                  <!-- Thumbnail 2: /// -->
+                  <li class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" role="group" aria-label="2 / 3" style="width: 180px">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="12.5%" style="transition-duration: 0ms; transform: translate3d(-12%, 0px, 0px)">
-                      <img class="overlay" src="https://thedamai.codebydennis.com/media/pages/stay/pool-studio/85f24180d6-1703172471/thumb-pool-studio-540x720-crop-q72.jpg" alt="Pool Studio Overview" />
+                      <!-- <img class="overlay" src="" alt="" /> -->
                     </div>
-                    <a href="https://thedamai.codebydennis.com/stay/pool-studio" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
                   </li>
-                  <li class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 4" style="width: 180px">
+
+                  <!-- Thumbnail 3: /// -->
+                  <li class="swiper-slide" data-swiper-slide-index="2" role="group" aria-label="3 / 3" style="width: 180px">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="12.5%" style="transition-duration: 0ms; transform: translate3d(-12%, 0px, 0px)">
-                      <img class="overlay" src="https://thedamai.codebydennis.com/media/pages/stay/pool-villa/3bf8799c9e-1703172472/thumb-pool-villa-540x720-crop-q72.jpg" alt="Pool Villa Overview" />
+                      <!-- <img class="overlay" src="" alt="" /> -->
                     </div>
-                    <a href="https://thedamai.codebydennis.com/stay/pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
                   </li>
-                  <li class="swiper-slide swiper-slide-duplicate-prev" data-swiper-slide-index="3" role="group" aria-label="4 / 4" style="width: 180px">
+
+                  <!-- Duplicate thumbnail (for loop effect) -->
+                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 3" style="width: 180px">
                     <div class="swiper-slide-inner overlay" data-swiper-parallax="12.5%" style="transition-duration: 0ms; transform: translate3d(-12%, 0px, 0px)">
-                      <img class="overlay" src="./media/fade_overview.jpg" alt="Haircuts Overview" />
+                      <!-- <img class="overlay" src="" alt="" /> -->
                     </div>
-                    <a href="https://thedamai.codebydennis.com/stay/master-pool-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
-                  </li>
-                  <li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 4" style="width: 180px">
-                    <div class="swiper-slide-inner overlay" data-swiper-parallax="12.5%" style="transition-duration: 0ms; transform: translate3d(-12%, 0px, 0px)">
-                      <img class="overlay" src="https://thedamai.codebydennis.com/media/pages/stay/garden-villa/b2fe44fbcf-1703172470/thumb-garden-villa-540x720-crop-q72.jpg" alt="Garden Villa Overview" />
-                    </div>
-                    <a href="https://thedamai.codebydennis.com/stay/garden-villa" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
+                    <a href="./services" class="overlay overlay-link" data-cursor-bubble-text="View"></a>
                   </li>
                 </ul>
                 <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
@@ -1676,6 +1690,7 @@
             </div>
           </div>
         </section>
+        <!-- CLOSING STATEMENT TITLE DIVIDER -->
         <section class="section" data-theme-section="light" data-bg-section="light" style="">
           <div class="border-top-ornament">
             <div class="ornament">
@@ -1721,6 +1736,7 @@
             </div>
           </div>
         </section>
+        <!-- CLOSING STATEMENT -->
         <section class="section section-double-slider" data-theme-section="light" data-bg-section="light">
           <div class="border-bottom"></div>
           <div class="swiper-slider-group" data-swiper-slider-type="double" id="swiper-slider-type-double-id-0">
