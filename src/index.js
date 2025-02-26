@@ -1340,3 +1340,13 @@ function initCustomCursor() {
       $('[data-cursor-bubble]').attr('data-cursor-bubble', 'not-active');
    });   
 }
+
+// Temporary refresh
+document.addEventListener("DOMContentLoaded", function () {
+   document.querySelectorAll('a[href="./"]').forEach(link => {
+       link.addEventListener("click", function (event) {
+           event.preventDefault(); // Prevent default link behavior
+           window.location.href = "/"; // Redirect to root
+       });
+   });
+});
